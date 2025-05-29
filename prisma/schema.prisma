@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("postgresql://evolution_db_hqw8_user:rH5ytf8FAJTYIZo5W67iYJRL6mbnhzua@dpg-d0s4kl3e5dus73a4cv6g-a/evolution_db_hqw8")
+  url      = env("DATABASE_URL")
 }
 
 enum InstanceConnectionStatus {
